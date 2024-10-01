@@ -93,11 +93,11 @@ font-size: 150%;
    
 }
 
-.img-coffe{
-    width: 960px;
-    height: 300px;
-    box-sizing: border-box;
-margin-left: 3%;
+.img-coffe img{
+   width: 100%;
+   height: 500px;
+   
+
 }
 .nss-historia{
  display: flex;
@@ -106,6 +106,8 @@ box-sizing: border-box;
 direction: ltr;
 font-family: Arial, Helvetica, sans-serif;
 justify-content: flex-end;
+padding: 1%;
+background-color: #f1f1f1;
 }
 .nss-historia>button{
     background-color: transparent;
@@ -115,56 +117,60 @@ justify-content: flex-end;
     font-weight: 1000%;
 }
 .Contato{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-sizing: border-box;
-     height: 400%;
-     margin-top: 10%;
-
+ width: 600px;
+ margin: 0 auto;
+ padding: 50px;
+ margin-top: 150px;
  
 }
 .titulo4{
-    display: flex;
-    justify-content: center; 
     margin-top: 9%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
     flex-direction: column;
     text-align: center;
 }
-.usuario{
+.Contato input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
     padding: 5px;
 
 }
-.Mensagem{
-    padding: 5px;
+.Contato textarea{
+    width: 100%;
+    height: 200px;
 }
-.email{
-    padding: 5px;
+.btn4{
+    width: 150px;
+    height: auto;
+    background: transparent;
+    text-decoration: none;
+    border: black, 1px, solid;
+    text-align: center;
+   
 }
-.btn-contato{
-    background-color: white;
-    border: black 1px solid;
-    margin-top: 20px;
-    width: 15%;
-    padding: 10px;
-    font-weight: 500%;
-    font-size: 120%;
-    margin-bottom: 20px;
-}
-.usuario{
-    display: flex;
+.btn4>a{
     
-    height: 200%;
-    padding: 10%;
-    text-align: start ;
-    justify-content: center;
-    margin-right: 50px;  
-    margin-top: 20px;
-    font-size: 120%;
-    align-items: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 150%;
+}
+.btn4:hover{
+    width: 150px;
+    height: auto;
+    background: transparent;
+    text-decoration: none;
+    border:  rgb(0, 255, 0) 1px, solid;
+    color: rgb(21, 5, 255);
+    font-size: 150%;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.btn4>a:hover{
+    color: rgb(0, 255, 0);
 }
 .paragrafo2{
     font-size: 170%;
@@ -211,7 +217,12 @@ justify-content: flex-end;
 }
 .hts{
     display: flex;
-    gap: 5%;
+    /* gap: 5%; */
+    height: 500px;
+}
+
+.img-coffe, .nss-historia {
+    width: 50%;
 }
 .Divs>div>a{
     text-decoration: none;
@@ -270,7 +281,7 @@ justify-content: flex-end;
     font-size: 230%;
     width: 200px;
     height: auto;
-
+}
 
 .idr:hover{
     color: white;
