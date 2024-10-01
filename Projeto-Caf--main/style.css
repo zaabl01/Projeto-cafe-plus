@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: rgb(31, 31, 31);
+    height: 50px;
+    position: fixed;
+    top:0;
+    left: 0;
+   width: 100%;
+   padding: 2%;
+
+}
+.Divs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 150%;
+    height: 100%;
+}
+.Titulo2{
+    display: flex;
+    align-items: center;
+    padding-left: 5%; 
+    font-size: 270%;
+}
+
+
+.intro {
+	background-image: url('https://images.pexels.com/photos/2559312/pexels-photo-2559312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    padding: 20%;
+
+	color: #fff;
+}
+.Titulo1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 500%;
+    color: rgb(0, 0, 0);
+    
+}
+.paragrafo{
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.btn1{
+    width: 200px;
+    height: auto;
+    background: transparent;
+    text-decoration: none;
+    border: black, 5px, solid;
+    color: black;
+    font-size: 200%;
+}
+.SERVIÇOS{
+    display: flex;
+	margin-top: 70px;
+	justify-content: space-around;
+    text-align: center;
+    margin-bottom: 10%;
+   
+ 
+}
+.Titulo3{
+    display: flex;
+    justify-content: center;
+ text-align: center;
+ padding-top: 8%;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 250%;
+ 
+
+}
+.secc{
+    height: 200%;
+   
+}
+
+.img-coffe{
+    width: 960px;
+    height: 300px;
+    box-sizing: border-box;
+margin-left: 3%;
+}
+.nss-historia{
+ display: flex;
+flex-direction: column;
+box-sizing: border-box;
+direction: ltr;
+font-family: Arial, Helvetica, sans-serif;
+justify-content: flex-end;
+}
+.nss-historia>button{
+    background-color: transparent;
+    margin-top: 20px;
+    width: 15%;
+    padding: 10px;
+    font-weight: 1000%;
+}
+.Contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+     height: 400%;
+     margin-top: 10%;
+
+ 
+}
+.titulo4{
+    display: flex;
+    justify-content: center; 
+    margin-top: 9%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    flex-direction: column;
+    text-align: center;
+}
+.usuario{
+    padding: 5px;
+
+}
+.Mensagem{
+    padding: 5px;
+}
+.email{
+    padding: 5px;
+}
+.btn-contato{
+    background-color: white;
+    border: black 1px solid;
+    margin-top: 20px;
+    width: 15%;
+    padding: 10px;
+    font-weight: 500%;
+    font-size: 120%;
+    margin-bottom: 20px;
+}
+.usuario{
+    display: flex;
+    
+    height: 200%;
+    padding: 10%;
+    text-align: start ;
+    justify-content: center;
+    margin-right: 50px;  
+    margin-top: 20px;
+    font-size: 120%;
+    align-items: center;
+}
+.paragrafo2{
+    font-size: 170%;
+}
+.tt2{
+    font-size: 350%;
+}
+.p1{
+    font-size: 150%;
+}
+
+.btn3{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: rgb(0, 0, 0) 1px solid;
+    transition: 0.6s;
+}
+
+.btn3:hover{
+    color: blue;
+    text-decoration: none;
+    border: blue 3px solid;
+    font-weight: bolder;
+    width: 250px;
+    height: auto;
+    font-size: larger;
+}
+.btn1{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: rgb(0, 0, 0) 1px solid;
+    transition: 0.6s;
+}
+
+.btn1:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: rgb(0, 0, 0) 1px solid;
+    width: 250px;
+    height: auto;
+    font-size: larger;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5%;
+}
+.hts{
+    display: flex;
+    gap: 5%;
+}
+.Divs>div>a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.Divs>div>a:hover{
+   
+    color: #a5a5a5;
+
+}
+.direitos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    padding: 1%;
+    color: rgb(255, 0, 0);
+    background-color: rgb(27, 27, 27);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.idr1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: white;
+    gap: 10%;
+
+}
+
+.idr1 a{
+    color: rgb(0, 0, 0);
+    border: black 1px solid;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 200%;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin-top: 20%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+   transition: 0.6s;
+
+   
+}
+
+.idr1 a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 700;
+    font-size: 230%;
+    width: 200px;
+    height: auto;
+
+
+.idr:hover{
+    color: white;
+}
